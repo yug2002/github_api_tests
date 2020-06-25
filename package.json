@@ -1,0 +1,22 @@
+{
+  "name": "webservice_github_test",
+  "version": "1.0.0",
+  "description": "api test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yug2002/github_api_tests.git"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "Yury.Hamaniuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yug2002/github_api_tests/issues"
+  },
+  "homepage": "https://github.com/yug2002/github_api_tests#readme"
+}
