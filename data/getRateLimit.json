@@ -1,0 +1,48 @@
+[
+  {
+    "uri": "/rate_limit",
+    "method": "GET",
+    "headers": {
+      "user-agent": "node.js",
+      "Authorization": ""
+    },
+    "body": {
+      "resources": {
+          "core": {
+              "limit": 5000,
+              "remaining": 4998,
+              "reset": 1593157254
+          },
+          "search": {
+              "limit": 30,
+              "remaining": 30,
+              "reset": 1593157279
+          },
+          "graphql": {
+              "limit": 5000,
+              "remaining": 5000,
+              "reset": 1593160819
+          },
+          "integration_manifest": {
+              "limit": 5000,
+              "remaining": 5000,
+              "reset": 1593160819
+          },
+          "source_import": {
+              "limit": 100,
+              "remaining": 100,
+              "reset": 1593157279
+          }
+      },
+      "rate": {
+          "limit": 5000,
+          "remaining": 4998,
+          "reset": 1593157254
+      }
+    }
+  }
+]
+
+
+
+
