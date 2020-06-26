@@ -4,19 +4,31 @@
   "description": "api test project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yug2002/github_api_tests.git"
   },
   "keywords": [
-    "API"
+    "API",
+    "web",
+    "service"
   ],
   "author": "Yury.Hamaniuk",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/yug2002/github_api_tests/issues"
   },
-  "homepage": "https://github.com/yug2002/github_api_tests#readme"
+  "homepage": "https://github.com/yug2002/github_api_tests#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "mochawesome": "^6.1.1",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.8"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.1"
+  }
 }
