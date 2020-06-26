@@ -13,10 +13,11 @@ describe('Get rate limit', () => {
       data.uri = `${env.uri}${data.uri}`;
       data.headers.Authorization = `${env.token}`; 
       response = await sendRequest(data);
-    });
+    });   
 
     it('Verifying of rate limit', () => {
-      expect(response.rate.limit).to.be.eql(data.body.rate.limit);
+      expect(response.statusCode).to.be.eql(200);
+      expect(response.body.rate.limit).to.be.eql(data.body.rate.limit);
     });
   });
   
